@@ -1,6 +1,12 @@
 .header  {
   font-family: monospace;
   background: papayawhip;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* I added on the logo instead of padding here */
+  padding: 8px;
+  
 }
 
 .logo {
@@ -9,11 +15,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /* margin: 10px;
+  gap: 8px;
+  align-items: center; */
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  display: flex;
+  gap: 10px;
+  /* I messed around with margins on all individual elements instead of adding padding on the container */
+  margin: 0px;
+  /* This helps to remove the 40px left padding adding by the bullet point which had been removed by the "list style style: none" */
+  padding-left: 0px;
+
 }
 
 a {
