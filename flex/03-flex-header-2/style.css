@@ -57,6 +57,7 @@ ul {
 .nav-left {
   display: flex;
   gap: 16px;
+  align-items: center;
 }
 
 .nav-buttons {
