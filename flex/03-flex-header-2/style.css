@@ -64,3 +64,5 @@ ul {
   align-items: center;
   gap: 16px;
 }
+
+/* I should have align items center on nav-left. Since code would have been duplicate, i could have applied css changes to both .left and .right classes  */
