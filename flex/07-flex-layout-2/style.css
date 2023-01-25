@@ -44,19 +44,23 @@ body {
   background: royalblue;
   /* prevent from shrinking. "Willing to pay ZERO when available space shrinks  */
   flex-shrink: 0;
+  /* Give room to elements in sidebar */
+  padding: 16px;
 }
 
 /* remove bullets */
 ul {
-  padding: 10px;
   list-style-type: none;
+  /* make sure to completely remove all bullet styling */
+  margin: 0;
+  padding: 0;
 }
 
 /* link styling */
 a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .card {
@@ -74,8 +78,8 @@ a {
   height: 72px;
   background: #eee;
   color: darkmagenta;
-  display: flex;
   /* center the footer content */
+  display: flex;
   justify-content: center;
   align-items: center;
 }
